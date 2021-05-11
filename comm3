@@ -28,4 +28,4 @@ comm3-wrap comm3-box comm3-msgs::-webkit-scrollbar-thumb { background: rgba(17,1
 comm3-wrap comm3-box p { margin: 0px 0px 3px 0px; padding: 8px 10px; background: var(--whitestrong); font: 300 11.5px open sans; text-transform: none; letter-spacing: .75px; line-height: 160%; color: var(--blackfade); }
 comm3-wrap comm3-box p:first-of-type { border-radius: 5px 5px 0px 0px; }
 comm3-wrap comm3-box p:last-of-type { border-radius: 0px 0px 5px 5px; margin-bottom: 0px; }
-comm3-wrap comm3-box p:only-of-type { border-radius: 5px; }
+comm3-wrap comm3-box p:only-of-type { border-radius: 5px; } 
