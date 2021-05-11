@@ -1,0 +1,31 @@
+comm3-wrap { 
+display: block; 
+margin: 100px auto;
+width: max-content;
+ --grad: linear-gradient(rgba(var(--mgrgb2),0.1),rgba(var(--mgrgb),0.1));
+--white: #fafafa;
+--whitestrong: #fff;
+--blackfade: rgba(17,17,17,0.5); }
+
+html[data-theme="dark"] comm3-wrap { --white: #1a1a1a; --blackfade: rgba(255,255,255,0.5); --whitestrong: #212121; }
+
+comm3-wrap img { display: block; margin: 0px auto -30px auto; width: 40px; height: 40px; object-fit: cover; padding: 10px; background: var(--whitebg); border-radius: 100%; position: relative; z-index: 2; }
+
+comm3-wrap comm3-box {
+display: block; 
+width: 190px; 
+padding: 50px; 
+background: var(--grad);
+box-shadow: 5px 5px 5px var(--white);
+border-radius: 15px; }
+
+comm3-wrap comm3-name { display: block; margin: 20px auto 35px auto; width: max-content; padding-bottom: 5px; border-bottom: var(--whitestrong) solid 2px; font: 300 20px var(--fontfam); text-transform: lowercase; letter-spacing: 2px; color: rgb(var(--mgrgb)); }
+
+comm3-wrap comm3-box comm3-msgs { display: block; height: 280px; padding-right: 5px; overflow: auto; }
+comm3-wrap comm3-box comm3-msgs::-webkit-scrollbar { width: 1px; height: 10px; background: rgba(255,255,255,0.03); }
+comm3-wrap comm3-box comm3-msgs::-webkit-scrollbar-thumb { background: rgba(17,17,17,0.15); }
+
+comm3-wrap comm3-box p { margin: 0px 0px 3px 0px; padding: 8px 10px; background: var(--whitestrong); font: 300 11.5px open sans; text-transform: none; letter-spacing: .75px; line-height: 160%; color: var(--blackfade); }
+comm3-wrap comm3-box p:first-of-type { border-radius: 5px 5px 0px 0px; }
+comm3-wrap comm3-box p:last-of-type { border-radius: 0px 0px 5px 5px; margin-bottom: 0px; }
+comm3-wrap comm3-box p:only-of-type { border-radius: 5px; }
