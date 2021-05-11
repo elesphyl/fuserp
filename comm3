@@ -1,3 +1,4 @@
+<style type="text/css">
 comm3-wrap { 
 display: block; 
 margin: 100px auto;
@@ -29,3 +30,4 @@ comm3-wrap comm3-box p { margin: 0px 0px 3px 0px; padding: 8px 10px; background:
 comm3-wrap comm3-box p:first-of-type { border-radius: 5px 5px 0px 0px; }
 comm3-wrap comm3-box p:last-of-type { border-radius: 0px 0px 5px 5px; margin-bottom: 0px; }
 comm3-wrap comm3-box p:only-of-type { border-radius: 5px; }
+</style>
